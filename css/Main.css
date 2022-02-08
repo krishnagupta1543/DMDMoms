@@ -6,7 +6,7 @@ body{
 }
 /* .flex-container { */
   .flex-container {
-    column-gap: 24%;
+    /* column-gap: 2%; */
     display: flex;
     flex-direction: row;
     /* margin-bottom: -61px; */
@@ -24,7 +24,6 @@ p{
 }
 .logo-img{
     border-radius: 50%;
-    height: 115px;;
 }
 li{
     list-style: disc;
@@ -55,6 +54,7 @@ h2{
 .center li a:hover{
   color: #d44f71;
   background-color: #dddddd;
+  border-radius: 5%;
 }
 .center ul li{
   position: relative;
@@ -92,6 +92,7 @@ h2{
 .Subnav{
   background-color: #dddddd;
   margin-left: 74%;
+  border-radius: 2%;
 }
 .objective li {
   list-style: disc;
